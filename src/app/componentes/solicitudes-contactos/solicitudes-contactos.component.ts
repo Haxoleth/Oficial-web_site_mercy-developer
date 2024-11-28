@@ -7,7 +7,7 @@ import { SolicitudesContactosService } from '../../servicios/solicitudes-contact
   styleUrls: ['./solicitudes-contactos.component.css']
 })
 export class SolicitudesContactosComponent implements OnInit {
-  solicitudes: any[] = []; // Array para almacenar las solicitudes
+  solicitudes: any[] = [];
 
   constructor(private solicitudesService: SolicitudesContactosService) {}
 
